@@ -1,0 +1,30 @@
+﻿@model List<ForSale.Models.Product>
+
+
+    
+@foreach (var slice in Model.EachSlice(3))
+{
+    <div class="row">
+        @foreach (var product in slice)
+        {
+            <div class="col-md-4">
+                <a href="@Url.Action("Show", "Product", new {product.Id})">
+                    <img src="http://i.imgur.com/@(product.ImagemId).jpg?" alt="@product.Title" class="img-thumbnail">
+                </a>
+                <h2><a href="@Url.Action("Show", "Product", new {product.Id})">@product.Title</a></h2>
+                <div class="label label-success price">
+                    @Decimal(product.Price)
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@helper Decimal(decimal value)
+{
+    if (value != 0)
+    {
+        var spanClass = value > 0 ? "positive" : "negative";
+        <span class="@spanClass">@value.Show()</span>
+    }
+}
