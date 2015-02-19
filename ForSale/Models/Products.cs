@@ -15,7 +15,22 @@ namespace ForSale.Models
                 ProductFixture.CreateCama(),
                 ProductFixture.CreateSofa(),
                 ProductFixture.CreateFogao(),
-                ProductFixture.CreateGeladeira()
+                ProductFixture.CreateGeladeira(),
+                ProductFixture.CreateLavadora(),
+                ProductFixture.CreateAmplificador(),
+                ProductFixture.CreateBota(),
+                ProductFixture.CreateConjuntoCha(),
+                ProductFixture.CreateCriadoGrande(),
+                ProductFixture.CreateCriadoPequeno(),
+                ProductFixture.CreateEstante(),
+                ProductFixture.CreateLine6(),
+                ProductFixture.CreateMemoria(),
+                ProductFixture.CreateMesa(),
+                ProductFixture.CreateNotebook(),
+                ProductFixture.CreateRack(),
+                ProductFixture.CreateSuporteViolao(),
+                ProductFixture.CreateViolaoAco(),
+                ProductFixture.CreateViolaoNylon(),
             };
         }
 
