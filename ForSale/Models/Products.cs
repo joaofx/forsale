@@ -11,17 +11,27 @@ namespace ForSale.Models
         {
             Items = new List<Product>
             {
-                ProductFixture.CreateTelefone(),
+                // moveis
                 ProductFixture.CreateCama(),
                 ProductFixture.CreateSofa(),
-                ProductFixture.CreateFogao(),
-                ProductFixture.CreateGeladeira(),
-                ProductFixture.CreateLavadora(),
-                ProductFixture.CreateAmplificador(),
-                ProductFixture.CreateBota(),
-                ProductFixture.CreateConjuntoCha(),
                 ProductFixture.CreateCriadoGrande(),
                 ProductFixture.CreateCriadoPequeno(),
+                
+
+                // cozinha
+                ProductFixture.CreateFogao(),
+                ProductFixture.CreateGeladeira(),
+                ProductFixture.CreateConjuntoCha(),
+
+                // eletro eletrônicos
+                ProductFixture.CreateLavadora(),
+                ProductFixture.CreateTelefone(),
+                
+                // música
+                ProductFixture.CreateAmplificador(),
+                ProductFixture.CreateBota(),
+                
+
                 ProductFixture.CreateEstante(),
                 ProductFixture.CreateLine6(),
                 ProductFixture.CreateMemoria(),
