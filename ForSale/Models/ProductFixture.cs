@@ -11,8 +11,6 @@ namespace ForSale.Models
                 Id = "Telefone",
                 Title = "Telefone fixo com fio Intelbras",
                 Price = 1,
-                ImagemId = "mw57pqv",
-                AlbumId = "n5Y83",
                 Tags = new List<string> {"Eletrônico"},
                 Description = @"
 ESTADO:
@@ -70,8 +68,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Sofa",
                 Title = "Sofá de 2 Lugares",
                 Price = 1,
-                ImagemId = "WSyd7qw",
-                AlbumId = "PzpzF",
                 Tags = new List<string> {"Móveis"},
                 Description = @"
 Sofá de 2 Lugares. Acompanha 5 almofadas da Etna.
@@ -95,8 +91,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Fogao",
                 Title = "Fogão Atlas Tropical 4 Bocas + Gás",
                 Price = 1,
-                ImagemId = "6OWWdod",
-                AlbumId = "eaLly",
                 Tags = new List<string> {"Eletrodomésticos"},
                 Description = @"
 Fogão Atlas Tropical 4 Bocas
@@ -128,8 +122,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Geladeira",
                 Title = "Geladeira Consul 240",
                 Price = 1,
-                ImagemId = "dAO9G3y",
-                AlbumId = "bB08m",
                 Tags = new List<string> {"Eletrodomésticos"},
                 Description = @"
 Geladeira Consul 240
@@ -156,8 +148,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Lavadora",
                 Title = "Máquina de Lavar Roupa Brastemp 9Kg",
                 Price = 1,
-                ImagemId = "EBzed67",
-                AlbumId = "3ZQoK",
                 Tags = new List<string> { "Eletrodomésticos" },
                 Description = @"
 Máquina de Lavar Roupa Brastemp 9Kg
@@ -187,8 +177,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Amplificador",
                 Title = "Amplificador de Baixo Meteoro",
                 Price = 1,
-                ImagemId = "5KaEPtD",
-                AlbumId = "RLkZD",
                 Tags = new List<string> { "Música" },
                 Description = @"
 Amplificador de Baixo Meteoro
@@ -214,8 +202,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Bota",
                 Title = "Bota Ortopédica",
                 Price = 1,
-                ImagemId = "TcPZbYM",
-                AlbumId = "8JVY9",
                 Tags = new List<string> { "Saúde" },
                 Description = @"
 Bota Ortopédica G
@@ -238,8 +224,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Cha",
                 Title = "Conjunto de Chá da Turquia (Chay)",
                 Price = 1,
-                ImagemId = "vbkNkFb",
-                AlbumId = "lY0ng",
                 Tags = new List<string> { "???" },
                 Description = @"
 Conjunto de Chá da Turquia (Chay)
@@ -262,8 +246,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "CriadoGrande",
                 Title = "Criado Mudo",
                 Price = 1,
-                ImagemId = "KAf7Zfj",
-                AlbumId = "jiBl6",
                 Tags = new List<string> { "Móveis" },
                 Description = @"
 Criado Mudo.
@@ -286,8 +268,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "CriadoPequeno",
                 Title = "Criado Pequeno",
                 Price = 1,
-                ImagemId = "o10KC4X",
-                AlbumId = "o4JKb",
                 Tags = new List<string> { "Móveis" },
                 Description = @"
 Criado Mudo.
@@ -310,8 +290,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Estante",
                 Title = "Estante de Livros",
                 Price = 1,
-                ImagemId = "pUzGSQR",
-                AlbumId = "UTamx",
                 Tags = new List<string> { "Móveis" },
                 Description = @"
 Criado Mudo.
@@ -334,8 +312,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Line6",
                 Title = "Line6",
                 Price = 1,
-                ImagemId = "vRU30qk",
-                AlbumId = "0BDyj",
                 Tags = new List<string> { "Móveis" },
                 Description = @"
 Line 6
@@ -358,8 +334,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Memoria",
                 Title = "Memória",
                 Price = 1,
-                ImagemId = "gNPbG5S",
-                AlbumId = "Q8K6L",
                 Tags = new List<string> { "Móveis" },
                 Description = @"
 Memória
@@ -382,8 +356,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Mesa",
                 Title = "Mesa de Jantar",
                 Price = 1,
-                ImagemId = "YhBAYNH",
-                AlbumId = "mRQDv",
                 Tags = new List<string> { "Móveis" },
                 Description = @"
 Mesa de Jantar
@@ -406,8 +378,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Notebook",
                 Title = "Notebook Acer",
                 Price = 1,
-                ImagemId = "V8Wa3Jj",
-                AlbumId = "zpajV",
                 Tags = new List<string> { "Eletrônicos" },
                 Description = @"
 Notebook
@@ -430,8 +400,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Rack",
                 Title = "Rack",
                 Price = 1,
-                ImagemId = "G0Rm4zX",
-                AlbumId = "8NSwg",
                 Tags = new List<string> { "Móveis" },
                 Description = @"
 Rack
@@ -454,8 +422,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "SuporteViolao",
                 Title = "Suporte Para Violão",
                 Price = 1,
-                ImagemId = "pXAboE1",
-                AlbumId = "v4jHf",
                 Tags = new List<string> { "Música" },
                 Description = @"
 Suporte Para Violão
@@ -478,8 +444,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "ViolaoAco",
                 Title = "Violão de Aço",
                 Price = 1,
-                ImagemId = "LeCL5ZL",
-                AlbumId = "PM1zM",
                 Tags = new List<string> { "Música" },
                 Description = @"
 Violão de Aço
@@ -502,8 +466,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "ViolaoNylon",
                 Title = "Violão de Nylon",
                 Price = 1,
-                ImagemId = "EOQUbZn",
-                AlbumId = "X7FBk",
                 Tags = new List<string> { "Música" },
                 Description = @"
 Violão de Nylon
