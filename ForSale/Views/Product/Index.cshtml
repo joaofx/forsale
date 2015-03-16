@@ -9,7 +9,7 @@
         {
             <div class="col-md-4">
                 <a href="@Url.Action("Show", "Product", new {product.Id})">
-                    <img src="http://i.imgur.com/@(product.ImagemId).jpg?" alt="@product.Title" class="img-thumbnail">
+                    <img src="http://i.imgur.com/@(product.Thumbnail).jpg?" alt="@product.Title" class="img-thumbnail">
                 </a>
                 <h2><a href="@Url.Action("Show", "Product", new {product.Id})">@product.Title</a></h2>
                 <div class="label label-success price">

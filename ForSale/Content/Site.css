@@ -1,55 +1,40 @@
-﻿/* html */
-body {
-    font-family: Segoe UI,Tahoma,sans-serif;
-    color: #555;
+﻿body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    color: #111;
+    font-size: 14px;
 }
 
-table {
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.price {
+    font-size: 120%;
+}
+
+.album {
     width: 100%;
+    height: 550px;
+    border: 0;
 }
 
-a, a:active {
-   color: #006FD6
-}
-
-a:hover {
-    color: #d66600;
-}
-
-td {
-    padding: 2px 8px 2px 8px;
-}
-
-input {
-    padding: 4px;
-    font-family: Segoe UI,Tahoma,sans-serif;
-    color: #202020;
-    font-size: 100%;
-}
-
-/* ids */
-#content {
-    margin: 0px 20px 0px 20px;
-}
-
-/* classes */
-
-.decimal {
-    text-align: right;
-}
-
-.large {
-    width: 400px;
-}
-
-.alert-success {
-    color: darkgreen;
-}
-
-.alert-error {
-    color: red;
-}
-
-.input-validation-error {
-    background-color: #ffeaea;
+.row {
+    margin-bottom: 40px;
 }
