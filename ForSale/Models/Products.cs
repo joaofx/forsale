@@ -49,12 +49,14 @@ namespace ForSale.Models
 
         public static List<Product> All(string tag = "")
         {
+            List<Product> items = Items.OrderByDescending(x => x.Price).ToList();
+
             if (string.IsNullOrEmpty(tag) == false)
             {
-                return Items.Where(x => x.Tag == tag).ToList();
+                return items.Where(x => x.Tag == tag).ToList();
             }
 
-            return Items;
+            return items;
         }
 
         public static Product ById(string id)
