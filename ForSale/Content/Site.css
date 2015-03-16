@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 20px;
     color: #111;
     font-size: 14px;
@@ -37,4 +37,17 @@ textarea {
 
 .row {
     margin-bottom: 40px;
+}
+
+.navbar-nav > li > a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    margin-bottom: 5px;
+}
+
+.breadcrumb {
+    padding: 8px;
+    margin-bottom: 5px;
 }

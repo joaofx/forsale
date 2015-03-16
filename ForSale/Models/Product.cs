@@ -6,7 +6,6 @@ namespace ForSale.Models
     {
         public Product()
         {
-            Tags = new List<string>();
             RemoteImages = new List<string>();
         }
 
@@ -14,7 +13,7 @@ namespace ForSale.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        public List<string> Tags { get; set; }
+        public string Tag { get; set; }
         public string LocalThumbnail { get; set; }
         public List<string> RemoteImages { get; set; }
         public string RemoteThumbnail { get; set; }

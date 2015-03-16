@@ -5,9 +5,10 @@ namespace ForSale.Controllers
 {
     public class ProductController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Index(string tag = "")
         {
-            return View(Products.All());
+            ViewBag.Tag = tag;
+            return View(Products.All(tag));
         }
 
         public ActionResult Show(string id)

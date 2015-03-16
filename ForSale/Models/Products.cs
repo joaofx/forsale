@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Microsoft.Ajax.Utilities;
 
 namespace ForSale.Models
 {
@@ -46,14 +47,24 @@ namespace ForSale.Models
             };
         }
 
-        public static List<Product> All()
+        public static List<Product> All(string tag = "")
         {
+            if (string.IsNullOrEmpty(tag) == false)
+            {
+                return Items.Where(x => x.Tag == tag).ToList();
+            }
+
             return Items;
         }
 
         public static Product ById(string id)
         {
             return Items.FirstOrDefault(x => x.Id == id);
+        }
+
+        public static List<string> Tags()
+        {
+            return Items.Select(x => x.Tag).DistinctBy(x => x).ToList();
         }
     }
 }

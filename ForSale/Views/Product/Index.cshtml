@@ -1,6 +1,16 @@
 ﻿@model List<ForSale.Models.Product>
 
+@{
+    string tag = ViewBag.Tag;
+}
 
+@if (string.IsNullOrEmpty(tag) == false)
+{
+    <ol class="breadcrumb">
+        <li><a href="@Url.Action("Index", "Product")">Todos</a></li>
+        <li><a href="@Url.Action("Index", "Product", new { tag = tag })">@tag</a></li>
+    </ol>
+}
     
 @foreach (var slice in Model.EachSlice(3))
 {
