@@ -32,7 +32,7 @@ No horário comercial fico na Asa Norte ao lado do Conjunto Nacional no horário
             {
                 Id = "Cama",
                 Title = "Cama de Casal Box Com Base e Colchão",
-                Price = 1,
+                Price = 450,
                 Tags = new List<string> {"Móveis"},
                 RemoteImages = new List<string> { "m9ZgCC7", "VlhfyQ1", "x5Vi3sh", "rdIyDK4", "d9Oj06Z" },
                 Thumbnail = "07RZrE9",
