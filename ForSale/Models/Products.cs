@@ -13,13 +13,13 @@ namespace ForSale.Models
             {
                 // moveis
                 ProductFixture.CreateCama(),
-                //ProductFixture.CreateSofa(),
+                ProductFixture.CreateSofa(),
                 //ProductFixture.CreateCriadoGrande(),
                 //ProductFixture.CreateCriadoPequeno(),
                 
 
                 //// cozinha
-                //ProductFixture.CreateFogao(),
+                ProductFixture.CreateFogao(),
                 //ProductFixture.CreateGeladeira(),
                 //ProductFixture.CreateConjuntoCha(),
 

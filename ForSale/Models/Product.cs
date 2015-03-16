@@ -7,7 +7,6 @@ namespace ForSale.Models
         public Product()
         {
             Tags = new List<string>();
-            LocalImages = new List<string>();
             RemoteImages = new List<string>();
         }
 
@@ -16,9 +15,9 @@ namespace ForSale.Models
         public string Description { get; set; }
         public decimal Price { get; set; }
         public List<string> Tags { get; set; }
-        public List<string> LocalImages { get; set; }
+        public string LocalThumbnail { get; set; }
         public string LocalImagesDirectory { get; set; }
         public List<string> RemoteImages { get; set; }
-        public string Thumbnail { get; set; }
+        public string RemoteThumbnail { get; set; }
     }
 }

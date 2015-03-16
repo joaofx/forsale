@@ -32,11 +32,11 @@ No horário comercial fico na Asa Norte ao lado do Conjunto Nacional no horário
             {
                 Id = "Cama",
                 Title = "Cama de Casal Box Com Base e Colchão",
-                Price = 450,
+                Price = 430,
                 Tags = new List<string> {"Móveis"},
+                RemoteThumbnail = "07RZrE9",
                 RemoteImages = new List<string> { "m9ZgCC7", "VlhfyQ1", "x5Vi3sh", "rdIyDK4", "d9Oj06Z" },
-                Thumbnail = "07RZrE9",
-                LocalImages = new List<string> { "IMG_1287", "IMG_1286", "IMG_1288", "IMG_1289", "IMG_1290" },
+                LocalThumbnail = "IMG_1287",
                 LocalImagesDirectory = @"D:\Fotos\_Sale_\Cama",
                 Description = @"
 Kit Conjunto Box
@@ -67,13 +67,17 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "Sofa",
                 Title = "Sofá de 2 Lugares",
-                Price = 1,
+                Price = 270,
                 Tags = new List<string> {"Móveis"},
+                LocalImagesDirectory = @"D:\Fotos\_Sale_\Sofa",
+                LocalThumbnail = "IMG_1309",
+                RemoteImages = new List<string> { "c95VvXx", "yMNMIhC", "YmNaDeZ", "2jqr2Wk", "SlSTVQx" },
+                RemoteThumbnail = "1cv4vvj",
                 Description = @"
 Sofá de 2 Lugares. Acompanha 5 almofadas da Etna.
 
 ESTADO:
-Dono único e 6 anos de uso. Está bem conservado, porém o ziper de uma das almofadas está estragado, e precisa de limpeza.
+Dono único e 6 anos de uso. Está bem conservado. O ziper de uma das almofadas está estragado.
 
 PAGAMENTO:
 À vista em dinheiro.
@@ -92,6 +96,8 @@ Buscar no Guará I em horário não comercial.
                 Title = "Fogão Atlas Tropical 4 Bocas + Gás",
                 Price = 1,
                 Tags = new List<string> {"Eletrodomésticos"},
+                LocalImagesDirectory = @"D:\Fotos\_Sale_\Fogao",
+                LocalThumbnail = "IMG_1293",
                 Description = @"
 Fogão Atlas Tropical 4 Bocas
 

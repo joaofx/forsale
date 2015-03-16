@@ -15,14 +15,23 @@ namespace ForSale.Tests
 
             foreach (var product in products)
             {
+                var okFile = Path.Combine(product.LocalImagesDirectory, "ok.txt");
+
+                if (File.Exists(okFile))
+                {
+                    continue;
+                }
+
                 Console.WriteLine(product.Title);
                 
-                CopyFirstImageToSmall(Path.Combine(product.LocalImagesDirectory, product.LocalImages[0] + ".JPG"));
+                CopyFirstImageToSmall(Path.Combine(product.LocalImagesDirectory, product.LocalThumbnail + ".JPG"));
 
-                foreach (var image in product.LocalImages)
+                foreach (var image in Directory.GetFiles(product.LocalImagesDirectory))
                 {
-                    CopyToLarge(Path.Combine(product.LocalImagesDirectory, image + ".JPG"));
+                    CopyToLarge(Path.Combine(product.LocalImagesDirectory, image));
                 }
+
+                File.WriteAllText(okFile, "Ok");
             }
         }
 
