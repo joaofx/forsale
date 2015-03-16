@@ -25,7 +25,6 @@ namespace ForSale
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/bootswatch.min.css",
                       "~/Content/site.css"));
         }
     }
