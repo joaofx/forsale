@@ -4,14 +4,6 @@ namespace ForSale.Models
 {
     public class ProductFixture
     {
-        const string Eletronicos = "Eletronicos";
-        const string Moveis = "Moveis";
-        const string Eletrodomesticos = "Eletrodomesticos";
-        const string Musica = "Musica";
-        const string Diversos = "Diversos";
-        const string Cozinha = "Cozinha";
-        const string Informatica = "Informatica";
-
         public static Product CreateTelefone()
         {
             return new Product
@@ -19,7 +11,6 @@ namespace ForSale.Models
                 Id = "Telefone",
                 Title = "Telefone fixo com fio Intelbras",
                 Price = 1,
-                Tag = Eletronicos,
                 LocalThumbnail = "IMG_1374",
                 RemoteImages = new List<string>() { "hfXnaOB", "5hX2Ha1" },
                 RemoteThumbnail = "t2XYFE2",
@@ -44,7 +35,6 @@ No horário comercial fico na Asa Norte ao lado do Conjunto Nacional no horário
                 Id = "Cama",
                 Title = "Cama de Casal Box Com Base e Colchão",
                 Price = 430,
-                Tag = Moveis,
                 RemoteThumbnail = "07RZrE9",
                 RemoteImages = new List<string> { "m9ZgCC7", "VlhfyQ1", "x5Vi3sh", "rdIyDK4", "d9Oj06Z" },
                 LocalThumbnail = "IMG_1287",
@@ -78,7 +68,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Sofa",
                 Title = "Sofá de 2 Lugares",
                 Price = 270,
-                Tag = Moveis,
                 LocalThumbnail = "IMG_1309",
                 RemoteImages = new List<string> { "c95VvXx", "yMNMIhC", "YmNaDeZ", "2jqr2Wk", "SlSTVQx" },
                 RemoteThumbnail = "1cv4vvj",
@@ -104,7 +93,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Fogao",
                 Title = "Fogão Atlas Tropical 4 Bocas + Gás",
                 Price = 170,
-                Tag = Eletrodomesticos,
                 LocalThumbnail = "IMG_1293",
                 RemoteImages = new List<string> { "aVeDlCZ", "vQrMjug", "DJDwU66", "qn96hm7"},
                 RemoteThumbnail = "YsjvstC",
@@ -138,7 +126,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Geladeira",
                 Title = "Geladeira Consul 240",
                 Price = 1,
-                Tag = Eletrodomesticos,
                 LocalThumbnail = "IMG_1298",
                 RemoteImages = new List<string>() { "PY0kITz", "8rEemhS", "IYEYvy3", "bHhrbnp", "" },
                 RemoteThumbnail = "WOsoaco",
@@ -167,7 +154,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Lavadora",
                 Title = "Máquina de Lavar Roupa Brastemp 9Kg",
                 Price = 1,
-                Tag = Eletrodomesticos,
                 LocalThumbnail = "IMG_1304",
                 RemoteImages = new List<string>() { "qHTDiyH", "Vx4UsCZ", "PRkxBye", "LyhAs1f", "pOxiOXN" },
                 RemoteThumbnail = "gb56w15",
@@ -199,7 +185,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Amp",
                 Title = "Amplificador de Baixo Meteoro",
                 Price = 1,
-                Tag = Musica,
                 LocalThumbnail = "IMG_1313",
                 RemoteImages = new List<string> { "8H8Aj3B", "x3CXyON", "ILfj2JD", "IDEIS4Y" },
                 RemoteThumbnail = "8Amhf2h",
@@ -227,7 +212,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Bota",
                 Title = "Bota Ortopédica",
                 Price = 1,
-                Tag = Diversos,
                 LocalThumbnail = "IMG_1379",
                 RemoteImages = new List<string> { "GOgOdlP", "MDuyIk3", "XXHwC9D", "bhtPPoT" },
                 RemoteThumbnail = "hzXTLtf",
@@ -252,7 +236,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Cha",
                 Title = "Conjunto de Chá da Turquia (Chay)",
                 Price = 1,
-                Tag = Cozinha,
                 LocalThumbnail = "IMG_1370",
                 RemoteImages = new List<string> { "8pI5BsM", "Ms9e40v", "JAjFdqz", "NPhP764" },
                 RemoteThumbnail = "j14eBpD",
@@ -281,7 +264,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "CriadoGrande",
                 Title = "Criado Mudo",
                 Price = 1,
-                Tag = Moveis,
                 LocalThumbnail = "IMG_1341",
                 RemoteImages = new List<string> { "zIdQnUA", "HsIjyM5", "QWOjiiT", "rNF3hSf" },
                 RemoteThumbnail = "9UmJB3G",
@@ -306,7 +288,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "CriadoPequeno",
                 Title = "Criado Pequeno",
                 Price = 1,
-                Tag = Moveis,
                 LocalThumbnail = "IMG_1345",
                 RemoteImages = new List<string> { "BM20NCC", "GATZR7U", "sO1wP7a", "" },
                 RemoteThumbnail = "OP6GSSQ",
@@ -331,7 +312,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Estante",
                 Title = "Estante de Livros",
                 Price = 1,
-                Tag = Moveis,
                 LocalThumbnail = "IMG_1338",
                 RemoteImages = new List<string> { "ijGEXvf", "SzADl3M", "TZICBRv" },
                 RemoteThumbnail = "ein6r3l",
@@ -356,7 +336,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Line6",
                 Title = "Line6",
                 Price = 1,
-                Tag = Musica,
                 LocalThumbnail = "IMG_1376",
                 RemoteImages = new List<string>() { "glBKkzg", "3pOU8jF", "Kp9GXeM" },
                 RemoteThumbnail = "RjPshAp",
@@ -381,7 +360,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Memoria",
                 Title = "Memória",
                 Price = 1,
-                Tag = Informatica,
                 LocalThumbnail = "IMG_1355",
                 RemoteThumbnail = "DU3Mm6C",
                 RemoteImages = new List<string>() { "xfIOSrH", "eEQWG5G"},
@@ -406,7 +384,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Mesa",
                 Title = "Mesa de Jantar com 4 Cadeiras",
                 Price = 1,
-                Tag = Moveis,
                 LocalThumbnail = "IMG_1349",
                 RemoteThumbnail = "ESBy5N3",
                 RemoteImages = new List<string>() { "Gurugqz", "NFFWqVp", "rsUqLNX", "DMFW08B", "O6GSdcj" },
@@ -436,7 +413,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Notebook",
                 Title = "Notebook Acer",
                 Price = 1,
-                Tag = Informatica,
                 LocalThumbnail = "IMG_1359",
                 RemoteImages = new List<string>() { "r2tAmpJ", "1pJann8", "3gMjCbF", "zVDtfWV", "9qL5CCP", "YOXqfIx", "P21mp64", "1zHlIOX" },
                 RemoteThumbnail = "DAy14yU",
@@ -461,7 +437,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Rack",
                 Title = "Rack",
                 Price = 1,
-                Tag = Moveis,
                 LocalThumbnail = "IMG_1318",
                 RemoteThumbnail = "Wu86RUM",
                 RemoteImages = new List<string>() { "dI2e9Eg", "HZ9Pjgp", "fcsag0p" },
@@ -486,7 +461,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "SuporteViolao",
                 Title = "Suporte Para Violão",
                 Price = 1,
-                Tag = Musica,
                 LocalThumbnail = "IMG_1335",
                 RemoteImages = new List<string>() { "rxY2mL3", "alLFy1C", "I8GzE6A" },
                 RemoteThumbnail = "YPJqBiO",
@@ -511,7 +485,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "ViolaoAco",
                 Title = "Violão de Aço",
                 Price = 1,
-                Tag = Musica,
                 LocalThumbnail = "IMG_1329",
                 RemoteImages = new List<string>() { "NpsYr5M", "iey97J5", "S3hXdSo", "zAvGGJv" },
                 RemoteThumbnail = "Dv8UWxa",
@@ -536,7 +509,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "ViolaoNylon",
                 Title = "Violão de Nylon",
                 Price = 1,
-                Tag = Musica,
                 LocalThumbnail = "IMG_1323",
                 RemoteImages = new List<string>() { "XWFdwly", "fC8TDCo", "W8JPt7P" },
                 RemoteThumbnail = "43CNjTs",
@@ -561,7 +533,6 @@ Buscar no Guará I em horário não comercial.
                 Id = "Wifi",
                 Title = "Roteador Wifi Siroco",
                 Price = 1,
-                Tag = Informatica,
                 LocalThumbnail = "IMG_1366",
                 RemoteImages = new List<string>() { "gGArOvp", "wTHxFNy", "ljsOR4T" },
                 RemoteThumbnail = "NPoQUVM",
@@ -582,6 +553,75 @@ PAGAMENTO:
 
 RETIRADA:
 Buscar no Guará I em horário não comercial.
+",
+            };
+        }
+
+        public static Product CreateArteDevAgil()
+        {
+            return new Product
+            {
+                Id = "Arte-Agil",
+                Title = "A Arte Do Desenvolvimento Ágil",
+                Price = 15,
+                LocalThumbnail = "IMG_1366",
+                RemoteImages = new List<string>() { "1BRewAq" },
+                RemoteThumbnail = "UeYbRfK",
+                Description = @"
+“Deixarei uma cópia deste livro com cada equipe que eu visitar.”
+—Brian Marick, Consultor de Padrões
+
+Um guia prático para qualquer pessoa que esteja utilizando o desenvolvimento ágil para construir um software valioso, este livro descreve o que é o desenvolvimento ágil e por que ele ajuda os projetos de software a serem bem sucedidos. Combina informações para desenvolvedores, gerentes, testadores e clientes em um único pacote que pode ser diretamente aplicado.
+
+A Arte do Desenvolvimento Ágil oferece uma visão completa do processo ágil, inclusive conselhos diretos sobre planejamento, desenvolvimento, entrega e gerenciamento baseados nos anos de experiência dos autores com Programação Extrema (XP). Este livro fornece práticas aplicadas para desenvolvedores e testadores, bem como informações para leitores não-técnicos. Os autores também tratam de um aspecto difícil do desenvolvimento ágil: desenvolver a cooperação e a confi ança entre os membros da equipe.
+
+A Arte do Desenvolvimento Ágil fornece respostas claras para perguntas como:
+
+* Como podemos adotar o desenvolvimento ágil?
+* Precisamos, realmente, fazer programação em pares?
+* Quais métricas devemos reportar?
+* Como podemos fazer para que os clientes participem?
+* Quanta documentação deve ser escrita?
+* Quando projetar e arquitetar?
+* Como não-desenvolvedor, como eu poderia trabalhar com uma equipe ágil?
+* Onde está o roadmap do meu produto?
+* Onde se encaixa a Garantia de Qualidade?
+* Se você já faz parte de uma equipe ágil ou se está apenas interessado no desenvolvimento ágil, este livro traz as dicas práticas de que você precisa. Explica como adotar as práticas XP, descreve cada uma delas e discute princípios que permitem a você modifi car e criar seu método XP. Este livro crescerá com você, conforme você adquire experiência, primeiro ensinando as regras, depois, como quebrá-las e, fi nalmente, como abandonar as regras conforme você se aperfeiçoa na arte do desenvolvimento ágil.
+
+ESTADO:
+Bem conservado. Foi pouco usado.
+
+PAGAMENTO:
+À vista em dinheiro.
+
+RETIRADA:
+Buscar no Guará I em horário não comercial ou combinar retirada na Asa Norte ao lado do Conjunto Nacional.
+",
+            };
+        }
+
+        public static Product CreateNaoMeFacaPensar()
+        {
+            return new Product
+            {
+                Id = "Nao-Me-Faca",
+                Title = "Não Me Faça Pensar - Usabilidade na Web",
+                Price = 10,
+                RemoteImages = new List<string>() { "l1eIk2c" },
+                RemoteThumbnail = "H2Ckdct",
+                Description = @"
+Livro - Não Me faça Pensar - Usabilidade na Web - 2ºed. - 100% colorido
+
+Uma Abordagem de Bom Senso à Usabilidade na Web. Cinco anos e mais de 100 mil exemplares após ter sido publicado pela primeira vez, é difícil imaginar alguém trabalhando em projeto Web que não tenha lido o 'clássico instantâneo' de Steve Krug sobre usabilidade na Web; contudo, as pessoas ainda o estão descobrindo todos os dias. Nesta segunda edição, Steve acrescenta três novos capítulos no mesmo estilo do original: divertido e interessante, mas, ainda assim, cheio de informações e conselhos práticos, tanto para novatos quanto para veteranos. Não fique surpreso se ele mudar completamente a forma pela qual você pensa em projeto para Web.
+
+ESTADO:
+Bem conservado. Foi pouco usado.
+
+PAGAMENTO:
+À vista em dinheiro.
+
+RETIRADA:
+Buscar no Guará I em horário não comercial ou combinar retirada na Asa Norte ao lado do Conjunto Nacional.
 ",
             };
         }

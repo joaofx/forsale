@@ -29,6 +29,9 @@ textarea {
     font-size: 120%;
 }
 
+.image {
+    margin-bottom: 20px;
+}
 .album {
     width: 100%;
     height: 550px;

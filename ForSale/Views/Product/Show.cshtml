@@ -1,19 +1,28 @@
 ﻿@model ForSale.Models.Product
 
+<ol class="breadcrumb">
+    <li><a href="@Url.Action("Index", "Product")">Todos</a></li>
+    <li><a href="@Url.Action("Index", "Product", new { tag = @Model.Tag })">@Model.Tag</a></li>
+    <li><a href="@Url.Action("Show", "Product", new { tag = @Model.Id })">@Model.Title</a></li>
+</ol>
+
 
 <div class="row">
     
      <div class="col-md-4">
 
          <h2>@Model.Title</h2>
-
-         <div class="label label-success price">@Model.Price.Show()</div>
-
-         <p>@Text(Model.Description)</p>
          
+         <p>
+             <div class="label label-success price">@Model.Price.Show()</div>
+         </p>
+
          <p>
              <a href="@Url.Action("Index", "Contato")">Ficou interessado? Entre em Contato</a>
          </p>
+
+         <p>@Text(Model.Description)</p>
+         
      </div>
     
     <div class="col-md-6">

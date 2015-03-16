@@ -6,6 +6,15 @@ namespace ForSale.Models
 {
     public class Products
     {
+        const string Eletronicos = "Eletronicos";
+        const string Moveis = "Moveis";
+        const string Eletrodomesticos = "Eletrodomesticos";
+        const string Musica = "Musica";
+        const string Diversos = "Diversos";
+        const string Cozinha = "Cozinha";
+        const string Informatica = "Informatica";
+        const string Livros = "Livros";
+
         private static readonly List<Product> Items;
 
         static Products()
@@ -13,37 +22,41 @@ namespace ForSale.Models
             Items = new List<Product>
             {
                 // moveis
-                ProductFixture.CreateCama(),
-                ProductFixture.CreateSofa(),
-                ProductFixture.CreateMesa(),
-                ProductFixture.CreateEstante(),
-                ProductFixture.CreateCriadoGrande(),
-                ProductFixture.CreateCriadoPequeno(),
-                ProductFixture.CreateRack(),
+                ProductFixture.CreateCama().WithTag(Moveis),
+                ProductFixture.CreateSofa().WithTag(Moveis),
+                ProductFixture.CreateMesa().WithTag(Moveis),
+                ProductFixture.CreateEstante().WithTag(Moveis),
+                ProductFixture.CreateCriadoGrande().WithTag(Moveis),
+                ProductFixture.CreateCriadoPequeno().WithTag(Moveis),
+                ProductFixture.CreateRack().WithTag(Moveis),
 
                 //// cozinha
-                ProductFixture.CreateFogao(),
-                ProductFixture.CreateGeladeira(),
-                ProductFixture.CreateConjuntoCha(),
+                ProductFixture.CreateFogao().WithTag(Cozinha),
+                ProductFixture.CreateGeladeira().WithTag(Cozinha),
+                ProductFixture.CreateConjuntoCha().WithTag(Cozinha),
 
                 //// eletro eletrônicos
-                ProductFixture.CreateLavadora(),
-                ProductFixture.CreateTelefone(),
+                ProductFixture.CreateLavadora().WithTag(Eletrodomesticos),
+                ProductFixture.CreateTelefone().WithTag(Eletrodomesticos),
                 
                 //// música
-                ProductFixture.CreateAmplificador(),
-                ProductFixture.CreateLine6(),
-                ProductFixture.CreateSuporteViolao(),
-                ProductFixture.CreateViolaoAco(),
-                ProductFixture.CreateViolaoNylon(),
+                ProductFixture.CreateAmplificador().WithTag(Musica),
+                ProductFixture.CreateLine6().WithTag(Musica),
+                ProductFixture.CreateSuporteViolao().WithTag(Musica),
+                ProductFixture.CreateViolaoAco().WithTag(Musica),
+                ProductFixture.CreateViolaoNylon().WithTag(Musica),
 
                 //// diversos
-                ProductFixture.CreateBota(),
+                ProductFixture.CreateBota().WithTag(Diversos),
                 
                 //// informatica
-                ProductFixture.CreateMemoria(),
-                ProductFixture.CreateNotebook(),
-                ProductFixture.CreateRoteadorWifi(),
+                ProductFixture.CreateMemoria().WithTag(Informatica),
+                ProductFixture.CreateNotebook().WithTag(Informatica),
+                ProductFixture.CreateRoteadorWifi().WithTag(Informatica),
+
+                // livros
+                ProductFixture.CreateArteDevAgil().WithTag(Livros),
+                ProductFixture.CreateNaoMeFacaPensar().WithTag(Livros),
             };
         }
 
