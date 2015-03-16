@@ -16,7 +16,6 @@ namespace ForSale.Models
         public decimal Price { get; set; }
         public List<string> Tags { get; set; }
         public string LocalThumbnail { get; set; }
-        public string LocalImagesDirectory { get; set; }
         public List<string> RemoteImages { get; set; }
         public string RemoteThumbnail { get; set; }
     }

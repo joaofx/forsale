@@ -15,7 +15,8 @@ namespace ForSale.Tests
 
             foreach (var product in products)
             {
-                var okFile = Path.Combine(product.LocalImagesDirectory, "ok.txt");
+                var directory = Path.Combine(@"D:\Fotos\_Sale_\", product.Id);
+                var okFile = Path.Combine(directory, "ok.txt");
 
                 if (File.Exists(okFile))
                 {
@@ -23,12 +24,12 @@ namespace ForSale.Tests
                 }
 
                 Console.WriteLine(product.Title);
-                
-                CopyFirstImageToSmall(Path.Combine(product.LocalImagesDirectory, product.LocalThumbnail + ".JPG"));
 
-                foreach (var image in Directory.GetFiles(product.LocalImagesDirectory))
+                CopyFirstImageToSmall(Path.Combine(directory, product.LocalThumbnail + ".JPG"));
+
+                foreach (var image in Directory.GetFiles(directory))
                 {
-                    CopyToLarge(Path.Combine(product.LocalImagesDirectory, image));
+                    CopyToLarge(Path.Combine(directory, image));
                 }
 
                 File.WriteAllText(okFile, "Ok");

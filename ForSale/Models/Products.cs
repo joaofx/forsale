@@ -14,33 +14,35 @@ namespace ForSale.Models
                 // moveis
                 ProductFixture.CreateCama(),
                 ProductFixture.CreateSofa(),
-                //ProductFixture.CreateCriadoGrande(),
-                //ProductFixture.CreateCriadoPequeno(),
-                
+                ProductFixture.CreateMesa(),
+                ProductFixture.CreateEstante(),
+                ProductFixture.CreateCriadoGrande(),
+                ProductFixture.CreateCriadoPequeno(),
+                ProductFixture.CreateRack(),
 
                 //// cozinha
                 ProductFixture.CreateFogao(),
-                //ProductFixture.CreateGeladeira(),
-                //ProductFixture.CreateConjuntoCha(),
+                ProductFixture.CreateGeladeira(),
+                ProductFixture.CreateConjuntoCha(),
 
                 //// eletro eletrônicos
-                //ProductFixture.CreateLavadora(),
-                //ProductFixture.CreateTelefone(),
+                ProductFixture.CreateLavadora(),
+                ProductFixture.CreateTelefone(),
                 
                 //// música
-                //ProductFixture.CreateAmplificador(),
-                //ProductFixture.CreateBota(),
-                
+                ProductFixture.CreateAmplificador(),
+                ProductFixture.CreateLine6(),
+                ProductFixture.CreateSuporteViolao(),
+                ProductFixture.CreateViolaoAco(),
+                ProductFixture.CreateViolaoNylon(),
 
-                //ProductFixture.CreateEstante(),
-                //ProductFixture.CreateLine6(),
-                //ProductFixture.CreateMemoria(),
-                //ProductFixture.CreateMesa(),
-                //ProductFixture.CreateNotebook(),
-                //ProductFixture.CreateRack(),
-                //ProductFixture.CreateSuporteViolao(),
-                //ProductFixture.CreateViolaoAco(),
-                //ProductFixture.CreateViolaoNylon(),
+                //// diversos
+                ProductFixture.CreateBota(),
+                
+                //// informatica
+                ProductFixture.CreateMemoria(),
+                ProductFixture.CreateNotebook(),
+                ProductFixture.CreateRoteadorWifi(),
             };
         }
 
