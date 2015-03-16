@@ -38,6 +38,10 @@ No horário comercial fico na Asa Norte ao lado do Conjunto Nacional no horário
                 ImagemId = "Rri6uOO",
                 AlbumId = "72PeL",
                 Tags = new List<string> {"Móveis"},
+                RemoteImages = new List<string> { "m9ZgCC7", "VlhfyQ1", "x5Vi3sh", "rdIyDK4", "d9Oj06Z" },
+                Thumbnail = "07RZrE9",
+                LocalImages = new List<string> { "IMG_1287", "IMG_1286", "IMG_1288", "IMG_1289", "IMG_1290" },
+                LocalImagesDirectory = @"D:\Fotos\_Sale_\Cama",
                 Description = @"
 Kit Conjunto Box
 

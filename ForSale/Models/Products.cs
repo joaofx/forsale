@@ -13,34 +13,34 @@ namespace ForSale.Models
             {
                 // moveis
                 ProductFixture.CreateCama(),
-                ProductFixture.CreateSofa(),
-                ProductFixture.CreateCriadoGrande(),
-                ProductFixture.CreateCriadoPequeno(),
+                //ProductFixture.CreateSofa(),
+                //ProductFixture.CreateCriadoGrande(),
+                //ProductFixture.CreateCriadoPequeno(),
                 
 
-                // cozinha
-                ProductFixture.CreateFogao(),
-                ProductFixture.CreateGeladeira(),
-                ProductFixture.CreateConjuntoCha(),
+                //// cozinha
+                //ProductFixture.CreateFogao(),
+                //ProductFixture.CreateGeladeira(),
+                //ProductFixture.CreateConjuntoCha(),
 
-                // eletro eletrônicos
-                ProductFixture.CreateLavadora(),
-                ProductFixture.CreateTelefone(),
+                //// eletro eletrônicos
+                //ProductFixture.CreateLavadora(),
+                //ProductFixture.CreateTelefone(),
                 
-                // música
-                ProductFixture.CreateAmplificador(),
-                ProductFixture.CreateBota(),
+                //// música
+                //ProductFixture.CreateAmplificador(),
+                //ProductFixture.CreateBota(),
                 
 
-                ProductFixture.CreateEstante(),
-                ProductFixture.CreateLine6(),
-                ProductFixture.CreateMemoria(),
-                ProductFixture.CreateMesa(),
-                ProductFixture.CreateNotebook(),
-                ProductFixture.CreateRack(),
-                ProductFixture.CreateSuporteViolao(),
-                ProductFixture.CreateViolaoAco(),
-                ProductFixture.CreateViolaoNylon(),
+                //ProductFixture.CreateEstante(),
+                //ProductFixture.CreateLine6(),
+                //ProductFixture.CreateMemoria(),
+                //ProductFixture.CreateMesa(),
+                //ProductFixture.CreateNotebook(),
+                //ProductFixture.CreateRack(),
+                //ProductFixture.CreateSuporteViolao(),
+                //ProductFixture.CreateViolaoAco(),
+                //ProductFixture.CreateViolaoNylon(),
             };
         }
 

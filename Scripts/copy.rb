@@ -1,0 +1,1 @@
+system("mogrify.exe", "-resize ""300x300>"" -quality 75 D:\\Fotos\\_Sale_\\Amp\\IMG_1313.JPG")
