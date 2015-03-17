@@ -2,7 +2,7 @@
 
 namespace ForSale.Controllers
 {
-    public class ContactController : Controller
+    public class ContatoController : Controller
     {
         public ActionResult Index()
         {

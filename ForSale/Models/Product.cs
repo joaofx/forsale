@@ -17,6 +17,7 @@ namespace ForSale.Models
         public string LocalThumbnail { get; set; }
         public List<string> RemoteImages { get; set; }
         public string RemoteThumbnail { get; set; }
+        public bool Sold { get; set; }
 
         public Product WithTag(string tag)
         {

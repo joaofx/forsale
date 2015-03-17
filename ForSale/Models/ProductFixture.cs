@@ -9,8 +9,9 @@ namespace ForSale.Models
             return new Product
             {
                 Id = "Telefone",
+                Sold = true,
                 Title = "Telefone fixo com fio Intelbras",
-                Price = 1,
+                Price = 10,
                 LocalThumbnail = "IMG_1374",
                 RemoteImages = new List<string>() { "hfXnaOB", "5hX2Ha1" },
                 RemoteThumbnail = "t2XYFE2",
@@ -472,7 +473,7 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "Rack",
                 Title = "Rack Provinci Torino Tabaco/Branco",
-                Price = 1,
+                Price = 110,
                 LocalThumbnail = "IMG_1318",
                 RemoteThumbnail = "Wu86RUM",
                 RemoteImages = new List<string>() { "dI2e9Eg", "HZ9Pjgp", "fcsag0p" },

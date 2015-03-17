@@ -1,9 +1,9 @@
 ﻿@model ForSale.Models.Product
 
 <ol class="breadcrumb">
-    <li><a href="@Url.Action("Index", "Product")">Todos</a></li>
-    <li><a href="@Url.Action("Index", "Product", new { tag = @Model.Tag })">@Model.Tag</a></li>
-    <li><a href="@Url.Action("Show", "Product", new { tag = @Model.Id })">@Model.Title</a></li>
+    <li><a href="@Url.Action("Lista", "Produto")">Todos</a></li>
+    <li><a href="@Url.Action("Lista", "Produto", new { tag = @Model.Tag })">@Model.Tag</a></li>
+    <li><a href="@Url.Action("Mostrar", "Produto", new { tag = @Model.Id })">@Model.Title</a></li>
 </ol>
 
 

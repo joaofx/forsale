@@ -7,8 +7,8 @@
 @if (string.IsNullOrEmpty(tag) == false)
 {
     <ol class="breadcrumb">
-        <li><a href="@Url.Action("Index", "Product")">Todos</a></li>
-        <li><a href="@Url.Action("Index", "Product", new { tag = tag })">@tag</a></li>
+        <li><a href="@Url.Action("Lista", "Produto")">Todos</a></li>
+        <li><a href="@Url.Action("Lista", "Produto", new { tag = tag })">@tag</a></li>
     </ol>
 }
 
@@ -20,13 +20,13 @@
             <div class="col-md-4">
 
                 <h2>
-                    <a href="@Url.Action("Show", "Product", new { title = product.Title.Replace(' ', '-') })">
+                    <a href="@Url.Action("Mostrar", "Produto", new { id = product.Id })">
                         @product.Title
                     </a>
                 </h2>
 
                 <div class="image">
-                    <a href="@Url.Action("Show", "Product", new { title = product.Title.Replace(' ', '-') })">
+                    <a href="@Url.Action("Mostrar", "Produto", new { id = product.Id })">
                         <img src="http://i.imgur.com/@(product.RemoteThumbnail).jpg" alt="@product.Title" class="img-thumbnail">
                     </a>
                 </div>
@@ -43,8 +43,8 @@
 @if (string.IsNullOrEmpty(tag) == false)
 {
     <ol class="breadcrumb">
-        <li><a href="@Url.Action("Index", "Product")">Todos</a></li>
-        <li><a href="@Url.Action("Index", "Product", new { tag = tag })">@tag</a></li>
+        <li><a href="@Url.Action("Lista", "Produto")">Todos</a></li>
+        <li><a href="@Url.Action("Lista", "Produto", new { tag = tag })">@tag</a></li>
     </ol>
 }
 
