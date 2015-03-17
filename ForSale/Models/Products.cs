@@ -57,6 +57,26 @@ namespace ForSale.Models
                 // livros
                 ProductFixture.CreateArteDevAgil().WithTag(Livros),
                 ProductFixture.CreateNaoMeFacaPensar().WithTag(Livros),
+                ProductFixture.CreateMusicaNoCerebro().WithTag(Livros),
+                ProductFixture.ExtremeProgrammingKent().WithTag(Livros),
+                ProductFixture.Beatlemania().WithTag(Livros),
+                ProductFixture.Discos().WithTag(Livros),
+                ProductFixture.ChicoXavier().WithTag(Livros),
+                ProductFixture.DomainDrivenDesign().WithTag(Livros),
+                ProductFixture.XpVinicius().WithTag(Livros),
+                ProductFixture.CodigoLimpo().WithTag(Livros),
+                ProductFixture.UseCabecaOo().WithTag(Livros),
+                ProductFixture.AndarBebado().WithTag(Livros),
+                ProductFixture.DesenvolvimentoOrientadoOo().WithTag(Livros),
+                ProductFixture.Startup().WithTag(Livros),
+                ProductFixture.AnaliseFundamentalista().WithTag(Livros),
+                ProductFixture.AvaliandoEmpresas().WithTag(Livros),
+                ProductFixture.Toyota().WithTag(Livros),
+                ProductFixture.GoogleFaria().WithTag(Livros),
+                ProductFixture.DarkSide().WithTag(Livros),
+                ProductFixture.BeatlesCancoes().WithTag(Livros),
+                ProductFixture.BemVindoBolsa().WithTag(Livros),
+                ProductFixture.TeachCPlusPlus().WithTag(Livros),
             };
         }
 
