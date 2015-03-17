@@ -6,7 +6,6 @@ namespace ForSale.Models
 {
     public class Products
     {
-        const string Eletronicos = "Eletronicos";
         const string Moveis = "Moveis";
         const string Eletrodomesticos = "Eletrodomesticos";
         const string Musica = "Musica";
@@ -68,6 +67,7 @@ namespace ForSale.Models
                 ProductFixture.UseCabecaOo().WithTag(Livros),
                 ProductFixture.AndarBebado().WithTag(Livros),
                 ProductFixture.DesenvolvimentoOrientadoOo().WithTag(Livros),
+                ProductFixture.JeitoWarren().WithTag(Livros),
                 ProductFixture.Startup().WithTag(Livros),
                 ProductFixture.AnaliseFundamentalista().WithTag(Livros),
                 ProductFixture.AvaliandoEmpresas().WithTag(Livros),
@@ -77,6 +77,7 @@ namespace ForSale.Models
                 ProductFixture.BeatlesCancoes().WithTag(Livros),
                 ProductFixture.BemVindoBolsa().WithTag(Livros),
                 ProductFixture.TeachCPlusPlus().WithTag(Livros),
+                ProductFixture.Tdd().WithTag(Livros),
             };
         }
 

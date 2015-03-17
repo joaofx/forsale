@@ -36,6 +36,14 @@
     </div>
 }
 
+@if (string.IsNullOrEmpty(tag) == false)
+{
+    <ol class="breadcrumb">
+        <li><a href="@Url.Action("Index", "Product")">Todos</a></li>
+        <li><a href="@Url.Action("Index", "Product", new { tag = tag })">@tag</a></li>
+    </ol>
+}
+
 @helper Decimal(decimal value)
 {
     if (value != 0)

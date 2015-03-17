@@ -74,6 +74,8 @@ Buscar no Guará I em horário não comercial.
                 Description = @"
 Sofá de 2 Lugares. Acompanha 5 almofadas da Etna.
 
+Acompanha Nota Fiscal
+
 ESTADO:
 Dono único e 6 anos de uso. Está bem conservado. O ziper de uma das almofadas está estragado.
 
@@ -125,12 +127,17 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "Geladeira",
                 Title = "Geladeira Consul 240",
-                Price = 1,
+                Price = 330,
                 LocalThumbnail = "IMG_1298",
                 RemoteImages = new List<string>() { "PY0kITz", "8rEemhS", "IYEYvy3", "bHhrbnp", "" },
                 RemoteThumbnail = "WOsoaco",
                 Description = @"
+DISPONÍVEL:
+A partir de 15/04
+
 Geladeira Consul 240
+
+240 litros
 
 * 220v
 * Freezer
@@ -153,12 +160,17 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "Lavadora",
                 Title = "Máquina de Lavar Roupa Brastemp 9Kg",
-                Price = 1,
+                Price = 530,
                 LocalThumbnail = "IMG_1304",
                 RemoteImages = new List<string>() { "qHTDiyH", "Vx4UsCZ", "PRkxBye", "LyhAs1f", "pOxiOXN" },
                 RemoteThumbnail = "gb56w15",
                 Description = @"
+DISPONÍVEL:
+A partir de 15/04
+
 Máquina de Lavar Roupa Brastemp 9Kg
+
+Modelo Brastemp bwl09 9kg
 
 * 220v
 * Modo de Centrifugar
@@ -184,17 +196,20 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "Amp",
                 Title = "Amplificador de Baixo Meteoro",
-                Price = 1,
+                Price = 330,
                 LocalThumbnail = "IMG_1313",
                 RemoteImages = new List<string> { "8H8Aj3B", "x3CXyON", "ILfj2JD", "IDEIS4Y" },
                 RemoteThumbnail = "8Amhf2h",
                 Description = @"
 Amplificador de Baixo Meteoro
 
+* Modelo Meteoro QX 200 Two Reverb 200w
+* Entrada Low/High
+* Reverb
 * Chave manual para trocar 110v/220v
 
 ESTADO:
-O som está bom. A alça está sem um parafuso. Alguns botões de regulagem estão sem capa como você pode ver nas fotos.
+O som está bom. A alça está sem um parafuso. Alguns botões de regulagem estão sem capa como você pode ver nas fotos, mas as regulagens estão funcionando.
 
 PAGAMENTO:
 À vista em dinheiro.
@@ -210,15 +225,18 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Bota",
-                Title = "Bota Ortopédica",
-                Price = 1,
+                Title = "Bota Imobilizadora Mercur G",
+                Price = 40,
                 LocalThumbnail = "IMG_1379",
                 RemoteImages = new List<string> { "GOgOdlP", "MDuyIk3", "XXHwC9D", "bhtPPoT" },
                 RemoteThumbnail = "hzXTLtf",
                 Description = @"
-Bota Ortopédica G
+Bota Imobilizadora Mercur
+
+Tamanho Grande
 
 ESTADO:
+Bem conservado. Usado durante 20 dias.
 
 PAGAMENTO:
 À vista em dinheiro.
@@ -235,7 +253,7 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "Cha",
                 Title = "Conjunto de Chá da Turquia (Chay)",
-                Price = 1,
+                Price = 15,
                 LocalThumbnail = "IMG_1370",
                 RemoteImages = new List<string> { "8pI5BsM", "Ms9e40v", "JAjFdqz", "NPhP764" },
                 RemoteThumbnail = "j14eBpD",
@@ -262,15 +280,16 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "CriadoGrande",
-                Title = "Criado Mudo",
-                Price = 1,
+                Title = "Criado Mudo/Estante",
+                Price = 70,
                 LocalThumbnail = "IMG_1341",
                 RemoteImages = new List<string> { "zIdQnUA", "HsIjyM5", "QWOjiiT", "rNF3hSf" },
                 RemoteThumbnail = "9UmJB3G",
                 Description = @"
-Criado Mudo.
+Criado Mudo/Estante de madeira
 
 ESTADO:
+Bem conservado.
 
 PAGAMENTO:
 À vista em dinheiro.
@@ -286,15 +305,16 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "CriadoPequeno",
-                Title = "Criado Pequeno",
-                Price = 1,
+                Title = "Criado Mudo/Estante Pequena",
+                Price = 55,
                 LocalThumbnail = "IMG_1345",
                 RemoteImages = new List<string> { "BM20NCC", "GATZR7U", "sO1wP7a", "" },
                 RemoteThumbnail = "OP6GSSQ",
                 Description = @"
-Criado Mudo.
+Criado Mudo/Estante Pequena
 
 ESTADO:
+Bem conservado.
 
 PAGAMENTO:
 À vista em dinheiro.
@@ -310,15 +330,16 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Estante",
-                Title = "Estante de Livros",
-                Price = 1,
+                Title = "Estante Para Livros Etna",
+                Price = 120,
                 LocalThumbnail = "IMG_1338",
                 RemoteImages = new List<string> { "ijGEXvf", "SzADl3M", "TZICBRv" },
                 RemoteThumbnail = "ein6r3l",
                 Description = @"
-Criado Mudo.
+Estante Para Livros da Etna
 
 ESTADO:
+Bem conservado.
 
 PAGAMENTO:
 À vista em dinheiro.
@@ -334,13 +355,17 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Line6",
-                Title = "Line6",
-                Price = 1,
+                Title = "Placa de Som/Gravador Digital Line 6 POD Ux1",
+                Price = 170,
                 LocalThumbnail = "IMG_1376",
                 RemoteImages = new List<string>() { "glBKkzg", "3pOU8jF", "Kp9GXeM" },
                 RemoteThumbnail = "RjPshAp",
                 Description = @"
-Line 6
+Placa de Som/Gravador Digital Line 6 POD Ux1
+
+Interface USB com 1 entrada mic XLR, 1 entrada para guitarra e baixo, entrada de linha 1 e 2, 1 entrada de monitor estéreo, 1 saída para fones de ouvido, saída analógica 1 e 2, USB powered, conversores 24 Bit A/D & D/A, compatível com ASIO, WDM, Mac OS X, 44.1 & 48 KHz, 16 & 24 Bit na gravação, 96 KHz taxa de amostragem para conversão interna para entradas e saídas.
+
+Acompanha CD do POD Farm 2 é o seu kit de equipamentos de estúdio virtual, possuindo as mesmas modelagens de amps e efeitos para guitarras, baixos e vocais de primeira linha do PODxt® 
 
 ESTADO:
 
@@ -358,15 +383,18 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Memoria",
-                Title = "Memória",
-                Price = 1,
+                Title = "2 Pentes de Memória de 2GB Cada",
+                Price = 60,
                 LocalThumbnail = "IMG_1355",
                 RemoteThumbnail = "DU3Mm6C",
                 RemoteImages = new List<string>() { "xfIOSrH", "eEQWG5G"},
                 Description = @"
-Memória
+2 pentes de Memória 2GB para Notebook da marca SMART
+
+Vieram instaladas de fábrica em um notebook da DELL.
 
 ESTADO:
+Funcionando normalmente.
 
 PAGAMENTO:
 À vista em dinheiro.
@@ -383,16 +411,17 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "Mesa",
                 Title = "Mesa de Jantar com 4 Cadeiras",
-                Price = 1,
+                Price = 390,
                 LocalThumbnail = "IMG_1349",
                 RemoteThumbnail = "ESBy5N3",
                 RemoteImages = new List<string>() { "Gurugqz", "NFFWqVp", "rsUqLNX", "DMFW08B", "O6GSdcj" },
                 Description = @"
-Mesa de Jantar
+Mesa de jantar Rebeca/Bianca Capri 130x80 Tabaco
 
-* Aproximadamente 1,10 x 0,76m
+* Aproximadamente 130x80
 * Tampo de vidro fosco
 * 4 Cadeiras acolchoadas
+* Acompanha Nota Fiscal
 
 ESTADO:
 Bem conservado.
@@ -412,14 +441,21 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "Notebook",
                 Title = "Notebook Acer",
-                Price = 1,
+                Price = 320,
                 LocalThumbnail = "IMG_1359",
                 RemoteImages = new List<string>() { "r2tAmpJ", "1pJann8", "3gMjCbF", "zVDtfWV", "9qL5CCP", "YOXqfIx", "P21mp64", "1zHlIOX" },
                 RemoteThumbnail = "DAy14yU",
                 Description = @"
-Notebook
+Notebook Acer Aspire 5100 
+
+* Processador AMD Turion 64 x2 1.5 GHz
+* HD de 260 GB (na foto aparece 120 GB mas foi trocada)
+* Memória de 2 GB (na foto aparece 1 GB mas foi trocada)
+* Wifi
+* DVD
 
 ESTADO:
+Está funcionando normalmente. No Windows XP/Vista estava aparecendo umas manchas na tela de vez em quando. Hoje está rodando Linux (Lubuntu), e está perfeito.
 
 PAGAMENTO:
 À vista em dinheiro.
@@ -435,15 +471,22 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Rack",
-                Title = "Rack",
+                Title = "Rack Provinci Torino Tabaco/Branco",
                 Price = 1,
                 LocalThumbnail = "IMG_1318",
                 RemoteThumbnail = "Wu86RUM",
                 RemoteImages = new List<string>() { "dI2e9Eg", "HZ9Pjgp", "fcsag0p" },
                 Description = @"
-Rack
+DISPONÍVEL:
+A partir de 15/04
+
+Rack Provinci Torino Tabaco/Branco
+
+Acompanha Nota Fiscal
+
 
 ESTADO:
+Bem conservado.
 
 PAGAMENTO:
 À vista em dinheiro.
@@ -459,15 +502,16 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "SuporteViolao",
-                Title = "Suporte Para Violão",
-                Price = 1,
+                Title = "Suporte Para Violão/Guitarra/Baixo",
+                Price = 50,
                 LocalThumbnail = "IMG_1335",
                 RemoteImages = new List<string>() { "rxY2mL3", "alLFy1C", "I8GzE6A" },
                 RemoteThumbnail = "YPJqBiO",
                 Description = @"
-Suporte Para Violão
+Suporte Para Violão/Guitarra/Baixo
 
 ESTADO:
+Bem conservado.
 
 PAGAMENTO:
 À vista em dinheiro.
@@ -484,14 +528,18 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "ViolaoAco",
                 Title = "Violão de Aço",
-                Price = 1,
+                Price = 140,
                 LocalThumbnail = "IMG_1329",
                 RemoteImages = new List<string>() { "NpsYr5M", "iey97J5", "S3hXdSo", "zAvGGJv" },
                 RemoteThumbnail = "Dv8UWxa",
                 Description = @"
-Violão de Aço
+Violão de Aço Tagima
+
+* Cordas de aço
+* Elétrico
 
 ESTADO:
+As cordas estão antigas. Tirando isso, o Violão está bom.
 
 PAGAMENTO:
 À vista em dinheiro.
@@ -508,7 +556,7 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "ViolaoNylon",
                 Title = "Violão de Nylon",
-                Price = 1,
+                Price = 110,
                 LocalThumbnail = "IMG_1323",
                 RemoteImages = new List<string>() { "XWFdwly", "fC8TDCo", "W8JPt7P" },
                 RemoteThumbnail = "43CNjTs",
@@ -516,6 +564,7 @@ Buscar no Guará I em horário não comercial.
 Violão de Nylon
 
 ESTADO:
+Está bem conservado.
 
 PAGAMENTO:
 À vista em dinheiro.
@@ -532,7 +581,7 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "Wifi",
                 Title = "Roteador Wifi Siroco",
-                Price = 1,
+                Price = 30,
                 LocalThumbnail = "IMG_1366",
                 RemoteImages = new List<string>() { "gGArOvp", "wTHxFNy", "ljsOR4T" },
                 RemoteThumbnail = "NPoQUVM",
@@ -852,7 +901,7 @@ Chico Xavier viveu seus 92 anos no limite. Com um pé na terra e outro no além,
                 Title = "Domain-Driven Design - Atacando as Complexidades no Coração do Software",
                 Price = 20,
                 RemoteImages = new List<string>() { "v7Sa5cA" },
-                RemoteThumbnail = "HeqmYcF",
+                RemoteThumbnail = "jAPX826",
                 Description = @"
 ESTADO:
 Bem conservado.
@@ -971,11 +1020,11 @@ Não estamos preparados para lidar com o aleatório – e, por isso, não perceb
         {
             return new Product
             {
-                Id = "Warren-Buffet",
-                Title = "O Jeito de Warren Buffett de Investir",
+                Id = "Desenvolvimento-Orientado-Oo",
+                Title = "Desenvolvimento orientado por objectos - Domain-Driven Design, Testes Unitários e Refactoring",
                 Price = 10,
-                RemoteImages = new List<string>() { "sYLA8Gt" },
-                RemoteThumbnail = "SXyLrDL",
+                RemoteImages = new List<string>() { "SbJgYGq" },
+                RemoteThumbnail = "SbJgYGq",
                 Description = @"
 PAGAMENTO:
 À vista em dinheiro.
@@ -983,10 +1032,145 @@ PAGAMENTO:
 RETIRADA:
 Buscar no Guará I em horário não comercial ou combinar retirada na Asa Norte ao lado do Conjunto Nacional.
 
-O Jeito de Warren Buffett de Investir - Os Segredos do Maior Investidor do Mundo
-Hagstrom, Robert G.
+Desenvolvimento orientado por objectos - Domain-Driven Design, Testes Unitários e Refactoring
+Autores: João Hugo Miranda, José António Almeida
 
-O livro contém o pensamento e a filosofia de um investidor que consistentemente ganhou dinheiro utilizando ferramentas disponíveis a qualquer pessoa, independentemente de sua situação financeira. Na obra, serão apresentados os 12 princípios atemporais que orientam a filosofia de investimentos de Buffett em todas as circunstâncias e em todos os mercados, sendo válidos para instruir qualquer investidor
+INTRODUÇÃO
+
+1.1 Objectivos e temática
+   1.1.1 Objectivos 
+   1.1.2 Algumas considerações
+1.2 Audiência
+1.3 Motivação
+   1.3.1 O Desenho Planeado
+   1.3.2 O Desenho Emergente
+   1.3.3 Um Programador Completo
+1.4 Organização
+
+PARTE I
+
+2 O OBJECTO
+2.1 A História e a Filosofia dos Objectos
+   2.1.1 Simula
+   2.1.2 Smalltalk
+   2.1.3 C++
+   2.1.4 Java
+   2.1.5 .Net 
+2.2 O que são Objectos?
+   2.2.1 Pensar em Objectos
+2.3 Conceitos fundamentais
+   2.3.1 Objecto
+   2.3.2 Responsabilidade
+   2.3.3 Mensagem 
+   2.3.4 Interface
+   2.3.5 Encapsulamento
+   2.3.6 Polimorfismo
+2.4 Pontos-chave
+
+3 DOMAIN-DRIVEN DESIGN
+3.1 Compreender o domínio do problema
+   3.1.1 Comunicação eficiente
+   3.1.2 A importância da Comunicação
+3.2 Linguagem Ubíqua
+   3.2.1 Uma linguagem omnipresente
+   3.2.2 Uma língua comum em todo o Projecto
+   3.2.3 Linguagem Ubíqua e Documentação
+3.3 Elementos do domínio da solução
+   3.3.1 Entidades (Entity)
+   3.3.2 Objectos-Valor (Value Objects)
+   3.3.3 Serviços (Services)
+   3.3.4 Associações
+   3.3.5 Módulos
+3.4 Pontos-chave
+
+PARTE II
+
+4 DESENVOLVIMENTO TEST-DRIVEN 
+ 4.1 Testes Unitários
+    4.1.1 Granularidade dos testes
+    4.1.2 Quando implementar os testes?
+    4.1.3 Reforço positivo
+4.2 O que é Desenvolvimento Test-Driven?
+   4.2.1 Um teste simples
+   4.2.2 Mais um teste
+   4.2.3 Alterações ao processo de desenvolvimento
+4.3 Pontos-chave
+
+5 DESENVOLVIMENTO TEST-DRIVEN AVANÇADO
+5.1 Mock Objects
+   5.1.1 Pesquisa de livros através de um web service
+5.2 Injecção de dependências
+   5.2.1 Injecção de dependências através do construtor
+   5.2.2 Injecção de dependências através de uma propriedade
+   5.2.3 Injecção de dependências através de injecção de interfaces
+5.3 Mock Objects estáticos
+   5.3.1 Persistência de livros
+5.4 Quando utilizar Mock Objects?
+5.5 Pontos-chave
+
+6 DESENVOLVIMENTO DE INTERFACES DE UTILIZAÇÃO
+6.1 Interfaces de Utilização
+6.2 Model View Controller
+6.3 Implementação de clientes Web 
+   6.3.1 Page Controller
+6.4 Implementação de clientes ricos
+   6.4.1 Model View Presenter
+6.5 Pontos-chave
+
+7 INTRODUÇÃO AO REFACTORING
+7.1 O que é o Refactoring?
+   7.1.1 Refactorings mais comuns 
+   7.1.2 As origens
+   7.1.3 Pré-requisitos
+   7.1.4 Refactoring Automático
+7.2 Refactoring no Processo de Desenvolvimento 
+   7.2.1 Refactoring e Desenho
+   7.2.2 Refactoring e Performance
+   7.2.3 Refactoring e Aplicações Legadas 
+   7.2.4 Refactoring e Paradigmas não Orientados-a-Objectos
+7.3 Pontos-chave
+
+8 REFACTORING APLICADO
+8.1 A aplicação Catálogo de Livros
+8.2 Corrigindo Código Doente
+   8.2.1 Métodos demasiado grandes
+   8.2.2 Comentários
+   8.2.3 Eliminando Métodos Longos e Comentários
+   8.2.4 Código duplicado 
+   8.2.5 Classes demasiado grandes
+   8.2.6 Eliminando Código Duplicado e Classes grandes
+   8.2.7 Alterações divergentes
+   8.2.8 Eliminando alterações divergentes
+   8.2.9 Longas listas de parâmetros
+   8.2.10 Blocos de dados
+   8.2.11 Eliminando longas listas de parâmetros e blocos de dados
+   8.2.12 “Inveja” 
+   8.2.13 Eliminando as “Invejas”
+   8.2.14 Classe de Dados
+   8.2.15 Eliminando Classes de Dados
+   8.2.16 Obsessão por Primitivas
+   8.2.17 Eliminando a obsessão por Primitivas
+   8.2.18 Alterações Transversais 
+   8.2.19 Eliminando alterações transversais
+   8.2.20 Switches
+   8.2.21 Eliminando Switches
+   8.2.22 Generalização especulativa
+8.3 Pontos-chave
+
+9 CONCLUSÕES E PASSOS FUTUROS
+9.1 O que aprendemos
+   9.1.1 Os Objectos
+   9.1.2 Domain-Driven Design
+   9.1.3 Desenvolvimento Test-Driven
+   9.1.4 Refactoring
+9.2 Próximos passos
+   9.2.1 Beber das fontes originais
+   9.2.2 Padrões de Desenho e Refactoring
+9.3 Palavras finais
+
+REFERÊNCIAS
+
+ÍNDICE REMISSIVO
 ",
             };
         }
@@ -1229,6 +1413,61 @@ Jesse Liberty, 2002
 19 Exploring the C Function Library
 20 Working with Memory
 21 Advanced Compiler Use
+",
+            };
+        }
+
+        public static Product Tdd()
+        {
+            return new Product
+            {
+                Id = "TDD",
+                Title = "Desenvolvimento de Software Orientado a Objetos, Guiado por Teste",
+                Price = 15,
+                RemoteImages = new List<string>() { "BQXCkIM" },
+                RemoteThumbnail = "dS5VVxn",
+                Description = @"
+PAGAMENTO:
+À vista em dinheiro.
+
+RETIRADA:
+Buscar no Guará I em horário não comercial ou combinar retirada na Asa Norte ao lado do Conjunto Nacional.
+
+Desenvolvimento de Software: Orientado a Objetos, Guiado por Testes
+Steve Freeman e Nat Pryce
+
+O livro aponta os desafios que as equipes de desenvolvimento enfrentam em relação a TDD – desde integrá-lo em seus processos a testar os seus recursos mais difíceis. A abordagem inclui:
+
+- A implementação efetiva de TDD: começando e mantendo o pique durante o projeto;
+- A criação de um código mais claro, expressivo e mais sustentável;
+- O uso de testes para focalizar intensamente a manutenção de qualidade;
+- A compreensão de como TDD, Objetos Simulados e Projetos Orientados a Objetos se unem no contexto do desenvolvimento de um projeto real de desenvolvimento de software;
+- Uso de Objetos Simulados para guiar Projetos Orientados a Objetos;
+- Como superar dificuldades de TDD: administração de dados de teste complexos e teste da persistência e simultaneidade.
+",
+            };
+        }
+
+        public static Product JeitoWarren()
+        {
+            return new Product
+            {
+                Id = "Warren-Buffet",
+                Title = "O Jeito de Warren Buffett de Investir",
+                Price = 10,
+                RemoteImages = new List<string>() { "sYLA8Gt" },
+                RemoteThumbnail = "SXyLrDL",
+                Description = @"
+PAGAMENTO:
+À vista em dinheiro.
+
+RETIRADA:
+Buscar no Guará I em horário não comercial ou combinar retirada na Asa Norte ao lado do Conjunto Nacional.
+
+O Jeito de Warren Buffett de Investir - Os Segredos do Maior Investidor do Mundo
+Hagstrom, Robert G.
+
+O livro contém o pensamento e a filosofia de um investidor que consistentemente ganhou dinheiro utilizando ferramentas disponíveis a qualquer pessoa, independentemente de sua situação financeira. Na obra, serão apresentados os 12 princípios atemporais que orientam a filosofia de investimentos de Buffett em todas as circunstâncias e em todos os mercados, sendo válidos para instruir qualquer investidor
 ",
             };
         }
