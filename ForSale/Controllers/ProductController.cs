@@ -11,9 +11,9 @@ namespace ForSale.Controllers
             return View(Products.All(tag));
         }
 
-        public ActionResult Show(string id)
+        public ActionResult Show(string title)
         {
-            return View(Products.ById(id));
+            return View(Products.ByTitle(title.Replace('-', ' ')));
         }
     }
 }

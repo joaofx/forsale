@@ -10,6 +10,18 @@ namespace ForSale
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                "Tags",
+                "{tag}",
+                new { controller = "Product", action = "Index" }
+            );
+
+            routes.MapRoute(
+                "Products",
+                "p/{title}",
+                new { controller = "Product", action = "Show", title= UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
                 "Default", 
                 "{controller}/{action}/{id}", 
                 new { controller = "Product", action = "Index", id = UrlParameter.Optional }

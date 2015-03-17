@@ -102,5 +102,10 @@ namespace ForSale.Models
         {
             return Items.Select(x => x.Tag).DistinctBy(x => x).ToList();
         }
+
+        public static Product ByTitle(string title)
+        {
+            return Items.FirstOrDefault(x => x.Title == title);
+        }
     }
 }

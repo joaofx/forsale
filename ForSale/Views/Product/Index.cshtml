@@ -19,11 +19,15 @@
         {
             <div class="col-md-4">
 
-                <h2><a href="@Url.Action("Show", "Product", new {product.Id})">@product.Title</a></h2>
+                <h2>
+                    <a href="@Url.Action("Show", "Product", new { title = product.Title.Replace(' ', '-') })">
+                        @product.Title
+                    </a>
+                </h2>
 
                 <div class="image">
-                    <a href="@Url.Action("Show", "Product", new {product.Id})">
-                        <img src="http://i.imgur.com/@(product.RemoteThumbnail).jpg?" alt="@product.Title" class="img-thumbnail">
+                    <a href="@Url.Action("Show", "Product", new { title = product.Title.Replace(' ', '-') })">
+                        <img src="http://i.imgur.com/@(product.RemoteThumbnail).jpg" alt="@product.Title" class="img-thumbnail">
                     </a>
                 </div>
 
