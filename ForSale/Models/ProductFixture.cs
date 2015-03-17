@@ -10,6 +10,7 @@ namespace ForSale.Models
             {
                 Id = "Telefone",
                 Sold = true,
+                SoldBy = 10,
                 Title = "Telefone fixo com fio Intelbras",
                 Price = 10,
                 LocalThumbnail = "IMG_1374",
@@ -67,6 +68,8 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Sofa",
+                Sold = true,
+                SoldBy = 270,
                 Title = "Sofá de 2 Lugares",
                 Price = 270,
                 LocalThumbnail = "IMG_1309",
@@ -899,6 +902,8 @@ Chico Xavier viveu seus 92 anos no limite. Com um pé na terra e outro no além,
             return new Product
             {
                 Id = "Domain-Driven-Design",
+                Sold = true,
+                SoldBy = 20,
                 Title = "Domain-Driven Design - Atacando as Complexidades no Coração do Software",
                 Price = 20,
                 RemoteImages = new List<string>() { "v7Sa5cA" },
@@ -1001,6 +1006,8 @@ Aqui você aprenderá a:
             return new Product
             {
                 Id = "Andar-Bebado",
+                Sold = true,
+                SoldBy = 10,
                 Title = "O Andar do Bêbado - Como o Acaso Determina Nossas Vidas",
                 Price = 10,
                 RemoteImages = new List<string>() { "tVNnRMz" },

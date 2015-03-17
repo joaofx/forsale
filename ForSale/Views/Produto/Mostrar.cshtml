@@ -9,21 +9,31 @@
 
 <div class="row">
     
-     <div class="col-md-4">
+    <div class="col-md-4 @(Model.Sold ? "sold" : "")">
 
-         <h2>@Model.Title</h2>
-         
-         <p>
-             <div class="label label-success price">@Model.Price.Show()</div>
-         </p>
+        <h2>@Model.Title</h2>
 
-         <p>
-             <a href="@Url.Action("Index", "Contato")">Ficou interessado? Entre em Contato</a>
-         </p>
+        <p>
+            <div class="label label-@(Model.Sold ? "sold" : "success") price">
+                @if (Model.Sold == false)
+                {
+                    @Decimal(Model.Price)
+                }
+                else
+                {
+                    <text>Vendido</text>
+                }
+            </div>
+        </p>
 
-         <p>@Text(Model.Description)</p>
-         
-     </div>
+        <p>
+            <a href="@Url.Action("Index", "Contato")">Ficou interessado? Entre em Contato</a>
+        </p>
+
+        <p>@Text(Model.Description)</p>
+
+    </div>
+
     
     <div class="col-md-6">
         
@@ -42,4 +52,13 @@
 @helper Text(string text)
 {
     @Html.Raw(text.Replace("\n", "<br/>"))
+}
+
+@helper Decimal(decimal value)
+{
+    if (value != 0)
+    {
+        var spanClass = value > 0 ? "positive" : "negative";
+        <span class="@spanClass">@value.Show()</span>
+    }
 }

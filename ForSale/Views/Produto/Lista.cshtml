@@ -1,4 +1,5 @@
-﻿@model List<ForSale.Models.Product>
+﻿@using ForSale.Models
+@model List<ForSale.Models.Product>
 
 @{
     string tag = ViewBag.Tag;
@@ -17,7 +18,7 @@
     <div class="row">
         @foreach (var product in slice)
         {
-            <div class="col-md-4">
+            <div class="col-md-4 @(product.Sold ? "sold" : "")">
 
                 <h2>
                     <a href="@Url.Action("Mostrar", "Produto", new { id = product.Id })">
@@ -31,8 +32,15 @@
                     </a>
                 </div>
 
-                <div class="label label-success price">
-                    @Decimal(product.Price)
+                <div class="label label-@(product.Sold ? "sold" : "success") price">
+                    @if (product.Sold == false)
+                    {
+                        @Decimal(product.Price)
+                    }
+                    else
+                    {
+                        <text>Vendido</text>
+                    }
                 </div>
 
             </div>

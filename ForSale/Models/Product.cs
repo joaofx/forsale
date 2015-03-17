@@ -18,6 +18,7 @@ namespace ForSale.Models
         public List<string> RemoteImages { get; set; }
         public string RemoteThumbnail { get; set; }
         public bool Sold { get; set; }
+        public decimal SoldBy { get; set; }
 
         public Product WithTag(string tag)
         {

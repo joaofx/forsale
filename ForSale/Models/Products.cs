@@ -83,7 +83,7 @@ namespace ForSale.Models
 
         public static List<Product> All(string tag = "")
         {
-            List<Product> items = Items.OrderByDescending(x => x.Price).ToList();
+            List<Product> items = Items.OrderBy(x => x.Sold).ThenByDescending(x => x.Price).ToList();
 
             if (string.IsNullOrEmpty(tag) == false)
             {

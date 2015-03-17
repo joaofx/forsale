@@ -60,3 +60,12 @@ textarea {
     background-color: #f5f5f5;
   border-color: #eeeeee;
 }
+
+.sold a {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.label-sold {
+  background-color: #999;
+}
