@@ -832,6 +832,7 @@ Conclusão
             return new Product
             {
                 Id = "Beatlemania",
+                Sold = true,
                 Title = "Beatlemania",
                 Price = 15,
                 RemoteImages = new List<string>() { "7K41jqs" },
@@ -1343,6 +1344,7 @@ A superação da saída de Syd Barrett; o ambiente no estúdio; a integração d
             return new Product
             {
                 Id = "Beatles-Cancoes",
+                Sold = true,
                 Title = "The Beatles: a História por Trás de Todas as Canções ",
                 Price = 10,
                 RemoteImages = new List<string>() { "2nzmJib" },
