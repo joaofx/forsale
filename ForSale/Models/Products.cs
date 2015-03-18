@@ -43,7 +43,6 @@ namespace ForSale.Models
                 ProductFixture.CreateLine6().WithTag(Musica),
                 ProductFixture.CreateSuporteViolao().WithTag(Musica),
                 ProductFixture.CreateViolaoAco().WithTag(Musica),
-                ProductFixture.CreateViolaoNylon().WithTag(Musica),
 
                 //// diversos
                 ProductFixture.CreateBota().WithTag(Diversos),

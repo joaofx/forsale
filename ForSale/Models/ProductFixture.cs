@@ -539,6 +539,7 @@ Violão de Aço Tagima
 
 * Cordas de aço
 * Elétrico
+* Acompanha Capa
 
 ESTADO:
 As cordas estão antigas. Tirando isso, o Violão está bom.
@@ -977,6 +978,7 @@ Mesmo um código ruim pode funcionar. Mas se ele não for limpo, pode acabar com
             return new Product
             {
                 Id = "Use-Cabeca-Oo",
+                Sold = true,
                 Title = "Use a Cabeça! Análise & Projeto Orientado ao Objeto",
                 Price = 15,
                 RemoteImages = new List<string>() { "ywr2UCk" },
@@ -1186,6 +1188,7 @@ REFERÊNCIAS
             return new Product
             {
                 Id = "Guia-Startup",
+                Sold = true,
                 Title = "Guia da Startup",
                 Price = 10,
                 RemoteImages = new List<string>() { "PD4zSZS" },
@@ -1459,6 +1462,7 @@ O livro aponta os desafios que as equipes de desenvolvimento enfrentam em relaç
             return new Product
             {
                 Id = "Warren-Buffet",
+                Sold = true,
                 Title = "O Jeito de Warren Buffett de Investir",
                 Price = 10,
                 RemoteImages = new List<string>() { "sYLA8Gt" },
