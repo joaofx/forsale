@@ -504,6 +504,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "SuporteViolao",
+                Sold = true,
                 Title = "Suporte Para Violão/Guitarra/Baixo",
                 Price = 50,
                 LocalThumbnail = "IMG_1335",
