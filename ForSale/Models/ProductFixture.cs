@@ -282,6 +282,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "CriadoGrande",
+                Sold = true,
                 Title = "Criado Mudo/Estante",
                 Price = 70,
                 LocalThumbnail = "IMG_1341",
@@ -658,6 +659,7 @@ Buscar no Guará I em horário não comercial ou combinar retirada na Asa Norte 
             return new Product
             {
                 Id = "Nao-Me-Faca",
+                Sold = true,
                 Title = "Não Me Faça Pensar - Usabilidade na Web",
                 Price = 10,
                 RemoteImages = new List<string>() { "l1eIk2c" },
@@ -1289,6 +1291,7 @@ Apresentando a fórmula de sucesso de uma empresa que deu a volta por cima e vol
             return new Product
             {
                 Id = "Google-Faria",
+                Sold = true,
                 Title = "O que a Google Faria?",
                 Price = 10,
                 RemoteImages = new List<string>() { "U3ywpiD" },
