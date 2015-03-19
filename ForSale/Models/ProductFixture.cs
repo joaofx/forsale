@@ -443,6 +443,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Notebook",
+                Sold = true,
                 Title = "Notebook Acer",
                 Price = 320,
                 LocalThumbnail = "IMG_1359",
@@ -585,6 +586,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Wifi",
+                Sold = true,
                 Title = "Roteador Wifi Siroco",
                 Price = 30,
                 LocalThumbnail = "IMG_1366",
