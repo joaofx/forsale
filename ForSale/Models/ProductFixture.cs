@@ -532,6 +532,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "ViolaoAco",
+                Sold = true,
                 Title = "Violão de Aço",
                 Price = 140,
                 LocalThumbnail = "IMG_1329",
