@@ -197,6 +197,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Amp",
+                Sold = true,
                 Title = "Amplificador de Baixo Meteoro",
                 Price = 330,
                 LocalThumbnail = "IMG_1313",
@@ -357,6 +358,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Line6",
+                Sold = true,
                 Title = "Placa de Som/Gravador Digital Line 6 POD Ux1",
                 Price = 170,
                 LocalThumbnail = "IMG_1376",
@@ -442,6 +444,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Notebook",
+                Sold = true,
                 Title = "Notebook Acer",
                 Price = 320,
                 LocalThumbnail = "IMG_1359",
@@ -530,6 +533,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "ViolaoAco",
+                Sold = true,
                 Title = "Violão de Aço",
                 Price = 140,
                 LocalThumbnail = "IMG_1329",
@@ -584,6 +588,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Wifi",
+                Sold = true,
                 Title = "Roteador Wifi Siroco",
                 Price = 30,
                 LocalThumbnail = "IMG_1366",
@@ -658,6 +663,7 @@ Buscar no Guará I em horário não comercial ou combinar retirada na Asa Norte 
             return new Product
             {
                 Id = "Nao-Me-Faca",
+                Sold = true,
                 Title = "Não Me Faça Pensar - Usabilidade na Web",
                 Price = 10,
                 RemoteImages = new List<string>() { "l1eIk2c" },
@@ -830,6 +836,7 @@ Conclusão
             return new Product
             {
                 Id = "Beatlemania",
+                Sold = true,
                 Title = "Beatlemania",
                 Price = 15,
                 RemoteImages = new List<string>() { "7K41jqs" },
@@ -1030,6 +1037,7 @@ Não estamos preparados para lidar com o aleatório – e, por isso, não perceb
             return new Product
             {
                 Id = "Desenvolvimento-Orientado-Oo",
+                Sold = true,
                 Title = "Desenvolvimento orientado por objectos - Domain-Driven Design, Testes Unitários e Refactoring",
                 Price = 10,
                 RemoteImages = new List<string>() { "SbJgYGq" },
@@ -1289,6 +1297,7 @@ Apresentando a fórmula de sucesso de uma empresa que deu a volta por cima e vol
             return new Product
             {
                 Id = "Google-Faria",
+                Sold = true,
                 Title = "O que a Google Faria?",
                 Price = 10,
                 RemoteImages = new List<string>() { "U3ywpiD" },
@@ -1340,6 +1349,7 @@ A superação da saída de Syd Barrett; o ambiente no estúdio; a integração d
             return new Product
             {
                 Id = "Beatles-Cancoes",
+                Sold = true,
                 Title = "The Beatles: a História por Trás de Todas as Canções ",
                 Price = 10,
                 RemoteImages = new List<string>() { "2nzmJib" },
