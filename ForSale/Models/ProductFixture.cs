@@ -283,6 +283,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "CriadoGrande",
+                Sold = true,
                 Title = "Criado Mudo/Estante",
                 Price = 70,
                 LocalThumbnail = "IMG_1341",
