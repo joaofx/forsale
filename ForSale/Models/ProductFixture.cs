@@ -197,6 +197,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Amp",
+                Sold = true,
                 Title = "Amplificador de Baixo Meteoro",
                 Price = 330,
                 LocalThumbnail = "IMG_1313",
@@ -358,6 +359,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Line6",
+                Sold = true,
                 Title = "Placa de Som/Gravador Digital Line 6 POD Ux1",
                 Price = 170,
                 LocalThumbnail = "IMG_1376",
@@ -1036,6 +1038,7 @@ Não estamos preparados para lidar com o aleatório – e, por isso, não perceb
             return new Product
             {
                 Id = "Desenvolvimento-Orientado-Oo",
+                Sold = true,
                 Title = "Desenvolvimento orientado por objectos - Domain-Driven Design, Testes Unitários e Refactoring",
                 Price = 10,
                 RemoteImages = new List<string>() { "SbJgYGq" },
