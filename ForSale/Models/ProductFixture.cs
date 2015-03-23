@@ -95,6 +95,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Fogao",
+                Sold = true,
                 Title = "Fogão Atlas Tropical 4 Bocas + Gás",
                 Price = 170,
                 LocalThumbnail = "IMG_1293",
