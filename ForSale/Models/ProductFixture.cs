@@ -34,6 +34,7 @@ No horário comercial fico na Asa Norte ao lado do Conjunto Nacional no horário
             return new Product
             {
                 Id = "Cama",
+                Sold = true,
                 Title = "Cama de Casal Box Com Base e Colchão",
                 Price = 430,
                 RemoteThumbnail = "07RZrE9",
@@ -129,6 +130,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Geladeira",
+                Sold = true,
                 Title = "Geladeira Consul 240",
                 Price = 330,
                 LocalThumbnail = "IMG_1298",
@@ -162,6 +164,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Lavadora",
+                Sold = true,
                 Title = "Máquina de Lavar Roupa Brastemp 9Kg",
                 Price = 530,
                 LocalThumbnail = "IMG_1304",
@@ -390,7 +393,7 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "Memoria",
                 Title = "2 Pentes de Memória de 2GB Cada",
-                Price = 60,
+                Price = 50,
                 LocalThumbnail = "IMG_1355",
                 RemoteThumbnail = "DU3Mm6C",
                 RemoteImages = new List<string>() { "xfIOSrH", "eEQWG5G"},
@@ -416,6 +419,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Mesa",
+                Sold = true,
                 Title = "Mesa de Jantar com 4 Cadeiras",
                 Price = 390,
                 LocalThumbnail = "IMG_1349",
@@ -550,31 +554,6 @@ Violão de Aço Tagima
 
 ESTADO:
 As cordas estão antigas. Tirando isso, o Violão está bom.
-
-PAGAMENTO:
-À vista em dinheiro.
-
-RETIRADA:
-Buscar no Guará I em horário não comercial.
-",
-            };
-        }
-
-        public static Product CreateViolaoNylon()
-        {
-            return new Product
-            {
-                Id = "ViolaoNylon",
-                Title = "Violão de Nylon",
-                Price = 110,
-                LocalThumbnail = "IMG_1323",
-                RemoteImages = new List<string>() { "XWFdwly", "fC8TDCo", "W8JPt7P" },
-                RemoteThumbnail = "43CNjTs",
-                Description = @"
-Violão de Nylon
-
-ESTADO:
-Está bem conservado.
 
 PAGAMENTO:
 À vista em dinheiro.
