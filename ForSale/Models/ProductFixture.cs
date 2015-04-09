@@ -221,7 +221,7 @@ O som está bom. A alça está sem um parafuso. Alguns botões de regulagem est�
 PAGAMENTO:
 À vista em dinheiro.
 
-RETIRADA:
+RETIRADA:e
 Buscar no Guará I em horário não comercial.
 ",
             };
@@ -314,6 +314,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "CriadoPequeno",
+                Sold = true,
                 Title = "Criado Mudo/Estante Pequena",
                 Price = 55,
                 LocalThumbnail = "IMG_1345",
