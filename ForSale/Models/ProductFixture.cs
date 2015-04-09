@@ -232,6 +232,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Bota",
+                Sold = true,
                 Title = "Bota Imobilizadora Mercur G",
                 Price = 40,
                 LocalThumbnail = "IMG_1379",
