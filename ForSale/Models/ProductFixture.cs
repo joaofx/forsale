@@ -480,6 +480,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Rack",
+                Sold = true,
                 Title = "Rack Provinci Torino Tabaco/Branco",
                 Price = 110,
                 LocalThumbnail = "IMG_1318",
