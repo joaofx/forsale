@@ -130,6 +130,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Geladeira",
+                Sold = true,
                 Title = "Geladeira Consul 240",
                 Price = 330,
                 LocalThumbnail = "IMG_1298",
@@ -339,6 +340,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Estante",
+                Sold = true,
                 Title = "Estante Para Livros Etna",
                 Price = 120,
                 LocalThumbnail = "IMG_1338",
