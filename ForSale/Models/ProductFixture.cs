@@ -34,6 +34,7 @@ No horário comercial fico na Asa Norte ao lado do Conjunto Nacional no horário
             return new Product
             {
                 Id = "Cama",
+                Sold = true,
                 Title = "Cama de Casal Box Com Base e Colchão",
                 Price = 430,
                 RemoteThumbnail = "07RZrE9",
@@ -95,6 +96,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Fogao",
+                Sold = true,
                 Title = "Fogão Atlas Tropical 4 Bocas + Gás",
                 Price = 250,
                 LocalThumbnail = "IMG_1293",
@@ -418,6 +420,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Mesa",
+                Sold = true,
                 Title = "Mesa de Jantar com 4 Cadeiras",
                 Price = 390,
                 LocalThumbnail = "IMG_1349",
