@@ -34,7 +34,6 @@ No horário comercial fico na Asa Norte ao lado do Conjunto Nacional no horário
             return new Product
             {
                 Id = "Cama",
-                Sold = true,
                 Title = "Cama de Casal Box Com Base e Colchão",
                 Price = 430,
                 RemoteThumbnail = "07RZrE9",
@@ -96,9 +95,8 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Fogao",
-                Sold = true,
                 Title = "Fogão Atlas Tropical 4 Bocas + Gás",
-                Price = 170,
+                Price = 250,
                 LocalThumbnail = "IMG_1293",
                 RemoteImages = new List<string> { "aVeDlCZ", "vQrMjug", "DJDwU66", "qn96hm7"},
                 RemoteThumbnail = "YsjvstC",
@@ -260,7 +258,7 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "Cha",
                 Title = "Conjunto de Chá da Turquia (Chay)",
-                Price = 15,
+                Price = 20,
                 LocalThumbnail = "IMG_1370",
                 RemoteImages = new List<string> { "8pI5BsM", "Ms9e40v", "JAjFdqz", "NPhP764" },
                 RemoteThumbnail = "j14eBpD",
@@ -394,7 +392,7 @@ Buscar no Guará I em horário não comercial.
             {
                 Id = "Memoria",
                 Title = "2 Pentes de Memória de 2GB Cada",
-                Price = 50,
+                Price = 40,
                 LocalThumbnail = "IMG_1355",
                 RemoteThumbnail = "DU3Mm6C",
                 RemoteImages = new List<string>() { "xfIOSrH", "eEQWG5G"},
@@ -420,7 +418,6 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Mesa",
-                Sold = true,
                 Title = "Mesa de Jantar com 4 Cadeiras",
                 Price = 390,
                 LocalThumbnail = "IMG_1349",
@@ -483,6 +480,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Rack",
+                Sold = true,
                 Title = "Rack Provinci Torino Tabaco/Branco",
                 Price = 110,
                 LocalThumbnail = "IMG_1318",
