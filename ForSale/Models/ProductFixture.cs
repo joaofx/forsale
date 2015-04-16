@@ -260,6 +260,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Cha",
+                Sold = true,
                 Title = "Conjunto de Chá da Turquia (Chay)",
                 Price = 20,
                 LocalThumbnail = "IMG_1370",
