@@ -232,6 +232,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Bota",
+                Sold = true,
                 Title = "Bota Imobilizadora Mercur G",
                 Price = 40,
                 LocalThumbnail = "IMG_1379",
@@ -259,6 +260,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Cha",
+                Sold = true,
                 Title = "Conjunto de Chá da Turquia (Chay)",
                 Price = 15,
                 LocalThumbnail = "IMG_1370",
@@ -313,6 +315,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "CriadoPequeno",
+                Sold = true,
                 Title = "Criado Mudo/Estante Pequena",
                 Price = 55,
                 LocalThumbnail = "IMG_1345",
@@ -338,6 +341,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Estante",
+                Sold = true,
                 Title = "Estante Para Livros Etna",
                 Price = 120,
                 LocalThumbnail = "IMG_1338",
@@ -392,6 +396,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Memoria",
+                Sold = true,
                 Title = "2 Pentes de Memória de 2GB Cada",
                 Price = 50,
                 LocalThumbnail = "IMG_1355",
@@ -482,6 +487,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Rack",
+                Sold = true,
                 Title = "Rack Provinci Torino Tabaco/Branco",
                 Price = 110,
                 LocalThumbnail = "IMG_1318",
@@ -1423,6 +1429,7 @@ Jesse Liberty, 2002
             return new Product
             {
                 Id = "TDD",
+                Sold = true,
                 Title = "Desenvolvimento de Software Orientado a Objetos, Guiado por Teste",
                 Price = 15,
                 RemoteImages = new List<string>() { "BQXCkIM" },
