@@ -392,6 +392,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Memoria",
+				Sold = true,
                 Title = "2 Pentes de Memória de 2GB Cada",
                 Price = 50,
                 LocalThumbnail = "IMG_1355",
