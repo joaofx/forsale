@@ -396,6 +396,7 @@ Buscar no Guará I em horário não comercial.
             return new Product
             {
                 Id = "Memoria",
+                Sold = true,
                 Title = "2 Pentes de Memória de 2GB Cada",
                 Price = 40,
                 LocalThumbnail = "IMG_1355",
@@ -1428,6 +1429,7 @@ Jesse Liberty, 2002
             return new Product
             {
                 Id = "TDD",
+                Sold = true,
                 Title = "Desenvolvimento de Software Orientado a Objetos, Guiado por Teste",
                 Price = 15,
                 RemoteImages = new List<string>() { "BQXCkIM" },
