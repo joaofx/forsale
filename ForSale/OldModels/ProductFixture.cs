@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ForSale.Models
+namespace ForSale.OldModels
 {
     public class ProductFixture
     {

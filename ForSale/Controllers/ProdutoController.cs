@@ -1,5 +1,5 @@
 ﻿using System.Web.Mvc;
-using ForSale.Models;
+using ForSale.OldModels;
 
 namespace ForSale.Controllers
 {

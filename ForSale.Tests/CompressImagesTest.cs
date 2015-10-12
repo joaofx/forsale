@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
-using ForSale.Models;
+using ForSale.OldModels;
 using Xunit;
 
 namespace ForSale.Tests

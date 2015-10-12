@@ -2,7 +2,7 @@
 using System.Linq;
 using Microsoft.Ajax.Utilities;
 
-namespace ForSale.Models
+namespace ForSale.OldModels
 {
     public class Products
     {
